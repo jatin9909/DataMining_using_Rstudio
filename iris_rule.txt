@@ -1,0 +1,9 @@
+SepalLength > 0
+SepalWidth > 0
+PetalLength > 0
+PetalWidth > 0
+PetalLength >= 2 * PetalWidth
+SepalLength <= 30
+SepalLength > PetalLength
+Species %in% c('setosa','versicolor','virginica')
+  
